@@ -1,0 +1,88 @@
+:root {
+  --couleur-jaune: #fee909;
+  --blanc: #ffffff;
+  --primary-color: #132297;
+  --degrade: rgba(40, 53, 147, 0.98);
+  --color-text: rgba(33, 37, 41, 0.75);
+
+  --font-family-base: "Poppins", sans-serif;
+  --font-size-title-1: 2rem;
+  --font-size-title-h2: 1.5rem;
+  --font-size-title-h3: 1.25rem;
+  --font-size-title-h4: 1.15rem;
+  --taille-paragraphe: 1rem;
+  --font-size-small: 0.875rem;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  --bg: var(--primary-color);
+  --bg-footer-color: var(--primary-color);
+  --text: var(--blanc);
+  --text-white: var(--blanc);
+  --text-muted: rgba(255, 255, 255, 0.7);
+  --text-active: var(--couleur-jaune);
+  --text-yellow: var(--couleur-jaune);
+  --hover-hover: #ffeb3b;
+  --navbar-text: var(--blanc);
+  --navbar-hover: var(--hover-hover);
+  --navbar-active: var(--text-active);
+  --text-title-color: var(--couleur-jaune);
+  --brand-subtext-color: var(--text-title-color);
+
+  --font-size: var(--taille-paragraphe);
+  --font-size-body: var(--taille-paragraphe);
+  --font-size-title: var(--font-size-title-h4);
+  --navbar-font-size: var(--font-size);
+  --brand-title-size: 1rem;
+  --brand-subtext-size: 0.9rem;
+  --brand-title-size-mobile: 0.82rem;
+  --brand-subtext-size-mobile: 0.72rem;
+  --navbar-link-padding-y-mobile: 0.7rem;
+  --navbar-padding-y-mobile: 0.65rem;
+  --navbar-logo-size-mobile: 38px;
+  --navbar-brand-gap-mobile: 0.5rem;
+  --font-weight-links: var(--font-weight-bold);
+  --font-weight-brand: var(--font-weight-extrabold);
+  --type-de-police: var(--font-family-base);
+
+  --navbar-height: 90px;
+  --navbar-logo-size: 45px;
+  --navbar-padding-y: 0.8rem;
+  --navbar-link-padding-x: 0.8rem;
+  --navbar-toggler-padding: 0.35rem 0.55rem;
+  --navbar-collapse-padding: 0.75rem var(--spacing-md);
+  --navbar-collapse-margin-top: 0.75rem;
+  --navbar-max-width: 1200px;
+  --footer-logo-size: 90px;
+  --footer-brand-size: 1.1rem;
+  --icon-size: 1.1rem;
+  --sticky-z-index: 1030;
+  --navbar-hover-background: rgba(255, 255, 255, 0.08);
+  --navbar-toggler-border: rgba(255, 255, 255, 0.35);
+  --navbar-focus-shadow: 0 0 0 0.15rem rgba(254, 233, 10, 0.35);
+}
