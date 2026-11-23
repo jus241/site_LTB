@@ -1,0 +1,31 @@
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 12px;
+    border-bottom: 1px solid var(--blanc);
+    box-shadow: var(--shadow-lg);
+}
+
+.logo>img {
+    width: 60px;
+    height: 6 0px;
+}
+
+.brand>h2 {
+    color: var(--blanc);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.brand>h2>span {
+    color: var(--couleur-jaune);
+}
+
+.brand>p {
+    color: var(--blanc);
+    font-size: 14px;
+    margin-top: 7px;
+}

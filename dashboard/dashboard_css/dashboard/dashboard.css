@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.dashboard{
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar{
+    width: 260px;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    flex-shrink: 0;
+    overflow-y: auto;
+}
+
+.main-content{
+    flex: 1;
+    min-width: 0;
+    background-color: var(--blanc);
+}
+
+/* @media screen and (max-width: 760px) {
+    .dashboard{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .main-content{
+        min-height: calc(100vh-100px);
+    }
+} */

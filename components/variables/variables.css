@@ -4,6 +4,7 @@
   --primary-color: #132297;
   --degrade: rgba(40, 53, 147, 0.98);
   --color-text: rgba(33, 37, 41, 0.75);
+  --color-border: #495057;
 
   --font-family-base: "Poppins", sans-serif;
   --font-size-title-1: 2rem;
@@ -85,4 +86,10 @@
   --navbar-hover-background: rgba(255, 255, 255, 0.08);
   --navbar-toggler-border: rgba(255, 255, 255, 0.35);
   --navbar-focus-shadow: 0 0 0 0.15rem rgba(254, 233, 10, 0.35);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
